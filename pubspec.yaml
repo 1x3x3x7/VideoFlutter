@@ -24,10 +24,14 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Redux
   redux: ^5.0.0
   flutter_redux: ^0.8.2 
   # Log value
   logger: ^1.0.0
+
+  # Video Player
+  video_player: ^2.1.5
 
   redux_thunk: ^0.4.0
   json_annotation: ^4.0.1
