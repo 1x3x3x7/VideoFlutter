@@ -31,7 +31,9 @@ dependencies:
   logger: ^1.0.0
 
   # Video Player
-  video_player: ^2.1.5
+  better_player: ^0.0.69
+  # Blur Images
+  flutter_blurhash: ^0.6.0
 
   redux_thunk: ^0.4.0
   json_annotation: ^4.0.1
@@ -45,7 +47,6 @@ dev_dependencies:
     sdk: flutter
 
   json_serializable: ^4.1.0
-  build_runner: ^1.12.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
