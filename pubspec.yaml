@@ -24,6 +24,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  
+  path_provider: ^2.0.2
+
   # Redux
   redux: ^5.0.0
   flutter_redux: ^0.8.2 
@@ -31,7 +34,7 @@ dependencies:
   logger: ^1.0.0
 
   # Video Player
-  better_player: ^0.0.69
+  better_player: ^0.0.70
   # Blur Images
   flutter_blurhash: ^0.6.0
 
@@ -60,9 +63,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - skate720p.m3u8
+     - master.m3u8
+     - skate_phantom_flex_4k_2112_720p10.ts
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
